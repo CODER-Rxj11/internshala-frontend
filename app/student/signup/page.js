@@ -40,6 +40,7 @@ const page = () => {
   return (
     <>
       <div style={{ height: "90vh" }} className='w-100 d-flex align-items-center justify-content-center'>
+      <h1>SignUp</h1>
         <form onSubmit={signupHandler} className='w-50'>
           <div className="d-flex">
             <div className="mb-3 w-50">
